@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>for循环多层嵌套</title>
+</head>
+<body>
+	<script>
+		
+		// var result = "";
+		// var num = 0;
+		// for(var i=0;i<5;i++){
+		// 	for(var j=0;j<5;j++){
+		// 		for(var k=0;k<5;k++){
+		// 			for(var l=0;l<5;l++){
+		// 				result += i + "" + j + "" + k + "" + l + "\n";
+		// 				num ++;
+		// 			}
+		// 		}
+		// 	}
+		// }
+
+		// console.log(result);
+		// console.log(num);
+
+		// var fib = function (n){
+		//   if(n == 1){
+		//     return 1;
+		//   }else if(n==2){
+		//     return 2;
+		//   }else if(n>2){
+		//     return fib(n-1) + fib(n-2);
+		//   }
+		// }
+		// console.log(fib(10));
+
+		// function factorial(n){
+		// 	if(n<=1){
+		// 		return 1;
+		// 	}else{
+		// 		return n*factorial(n-1);
+		// 	}
+		// }
+
+		// console.log(factorial(20));
+
+		// function factorial(n){
+		// 	var value = 1;
+		// 	if(n<=1){
+		// 		return 1;
+		// 	}else{
+		// 		for(var i=n;i>1;i--){
+		// 			value *= i;
+		// 		}
+		// 		return value;
+		// 	}
+		// }
+		// console.log(factorial(20));
+
+
+        // for(let i=0;i<5;i++){
+        // 	for(let i=0;i<5;i++){
+        // 		document.write("*");
+        // 	}
+        // 	document.write("*");
+        // }
+        // document.write("<hr />");
+
+
+		// var result = "";
+		// function loop(n){
+		// 	for(var i=0;i<n;i++){
+		// 		for(var j=0;j<n;j++){
+		// 			for(var k=0;k<n;k++){
+		// 				for(var l=0;l<n;l++){
+		// 					result += i + "" + j + "" + k + "" + l + "\n";
+		// 				}
+		// 			}
+		// 		}
+		// 	}
+		// 	return result;
+		// }
+		// console.log(loop(5))
+
+
+		function sum(n){
+			if(n == 1){
+				return 1;
+			}else{
+				return sum(n-1) + n;
+			}
+		}
+
+		console.log(sum(3000));
+
+		function sum2(n){
+			var value = 0;
+			for(let i=0;i<=n;i++){
+				value += i;
+			}
+			return value;
+		}
+
+		console.log(sum2(3000));
+
+
+
+
+		
+
+	</script>
+</body>
+</html>
